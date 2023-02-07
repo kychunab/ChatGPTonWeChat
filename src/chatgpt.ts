@@ -13,7 +13,7 @@ const ChatGPTModelConfig = {
   model: "text-chat-davinci-002-20221122",
   // add your ChatGPT model parameters below
   temperature: 0.3,
-  max_tokens: 20000,
+  max_tokens: 15000,
 };
 
 // message size for a single reply by the bot
