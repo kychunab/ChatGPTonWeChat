@@ -10,14 +10,14 @@ const chatgptErrorMessage = "🤖️：AI机器人摆烂了，请稍后再试～
 // please refer to the OpenAI API doc: https://beta.openai.com/docs/api-reference/introduction
 const ChatGPTModelConfig = {
   // this model field is required
-  model: "text-davinci-003",
+  model: "text-chat-davinci-002-20221122",
   // add your ChatGPT model parameters below
   temperature: 0.3,
-  max_tokens: 2000,
+  max_tokens: 4000,
 };
 
 // message size for a single reply by the bot
-const SINGLE_MESSAGE_MAX_SIZE = 500;
+const SINGLE_MESSAGE_MAX_SIZE = 1000;
 
 enum MessageType {
   Unknown = 0,
